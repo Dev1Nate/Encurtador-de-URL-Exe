@@ -5,8 +5,6 @@ Um Projeto Ainda em Andandamento de Um Encurtador De URL(Ja Pode ser Rodado Atra
 ## Funcionalidades
 
 - 🔗 Encurtamento de URLs usando Python e Java  
-- 🌐 API REST para integração com outros sistemas  
-- 💻 Interface web e executável desktop  
 
 ## Tecnologias Utilizadas
 
