@@ -13,3 +13,7 @@ try:
     print(x)
 except pyshorteners.exceptions.BadURLException:
     print(f"Erro Ao Converter A URL:{url} ")
+    sys.exit(1)
+except Exception as e:
+    print(f"Erro inesperado: {e}")
+    sys.exit(1)

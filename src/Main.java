@@ -11,7 +11,7 @@ public class Main {
         System.out.print("Copie Ou Digite Sua URL: ");
         try {
 
-            ProcessBuilder ps = new ProcessBuilder("python", ".\\src\\python\\shortener.py",sc.nextLine());
+            ProcessBuilder ps = new ProcessBuilder(".\\Scripts\\shortener.exe",sc.nextLine());
             ps.redirectErrorStream(true);
             Process process = ps.start();
             try (BufferedReader ln = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
@@ -27,7 +27,7 @@ public class Main {
 
 
 
-
+        sc.nextLine();
         sc.close();
 
 
